@@ -28,6 +28,7 @@ qualifies as a good pivot.
 
 In a randomly ordered array, every individual element, including the first element, is equally
 likely to be te $i$th smallest element for any $i = 1, 2, ..., n$, thus the probability of the
-first being a good pivot is:  
+first element, that is to say it satisfies the inequality above, being a good pivot is:  
 $\frac{\frac{3n}{4} - \frac{n}{4}}{n} = \frac{\frac{2n}{4}}{n} = \frac{\frac{n}{2}}{n} = 
-\frac{n}{2} \cdot \frac{1}{n} = \frac{n}{2n} = \frac{1}{2}$
+\frac{n}{2} \cdot \frac{1}{n} = \frac{n}{2n} = \frac{1}{2}$  
+or 50%.
