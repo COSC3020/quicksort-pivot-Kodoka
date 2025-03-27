@@ -19,3 +19,14 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+# First vs. Median-of-Three
+
+From lecture slide 34 we define a good pivot as a pivot from the middle $\frac{n}{2}$ elements.
+That is to say if our chosen pivot, $x$, satisfies $\frac{n}{4} \leq x \leq \frac{3n}{4}$, it
+qualifies as a good pivot.  
+
+In a randomly ordered array, every individual element, including the first element, is equally
+likely to be te $i$th smallest element for any $i = 1, 2, ..., n$, thus the probability of the
+first being a good pivot is:  
+$\frac{\frac{3n}{4} - \frac{n}{4}}{n}$
